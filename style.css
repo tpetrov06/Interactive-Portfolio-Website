@@ -1,0 +1,132 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #ffffff;
+    color: #222;
+}
+
+header {
+    background: #ffffff;
+    padding: 15px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    text-align: center;
+    padding: 120px 20px;
+    background: #f0f0f0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: black;
+    color: #fafafa;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.project .btn {
+    padding: 8px 16px;
+    margin-top: 15px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+
+.section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+.profile {
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.skill-grid {
+    width: 100%;
+    max-width: 900px; /* ensures enough space for 2 columns */
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+
+.skill-item {
+    background: #f2f2f2; /* light grey */
+    padding: 20px;
+    border-radius: 12px; /* rounded corners */
+    border: 1px solid #dcdcdc; /* subtle border */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* adds shadow to make it stand out */
+}
+
+.skill-item img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.skill-box h3 {
+    margin-top: 0;
+}
+
+.project {
+    background: #ffffff; /* white */
+    padding: 20px;
+    border-radius: 12px; /* rounded corners */
+    border: 1px solid #dcdcdc; /* subtle border */
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* adds shadow to make it stand out */
+    margin-bottom: 40px;
+}
+
+.project img {
+    width: 20 0px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #eee;
+    margin-top: 40px;
+}
